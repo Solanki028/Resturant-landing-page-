@@ -1,13 +1,11 @@
 import React from "react";
-import Todo from "./component/Basics/todoreact/todo";
-// import Temp from "./components/weather/temp";
+// import Resturant from "./component/Basics/Resturant";cd 
+// import UseState from "./component/Hooks/useState";
+// import UseEffect from "./component/Hooks/useEffect";
+import UseReducer from "./component/Hooks/useReducer";
 
 const App = () => {
-  return (
-    <>
-      <Todo />
-    </>
-  );
+  return <UseReducer />;
 };
 
 export default App;
